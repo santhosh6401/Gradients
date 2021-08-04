@@ -1,0 +1,40 @@
+body{
+    background-image: url(1.png);
+}
+.header{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 50px;
+    text-shadow: 4px 4px whitesmoke;
+    font-family: 'Lobster',cursive;
+
+}
+
+iframe{
+    height: 500px;
+    width: 800px;
+    margin-top: 125px;
+    border-radius: 20px;
+    box-shadow: 3px 4px lightsteelblue;
+}
+
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+@media only screen and(min-width:600px){
+    iframe{
+       
+        width:100%;
+    }
+}
+@media only screen and(min-width:768px){
+    iframe{
+    
+        width:100%;
+    }
+}
